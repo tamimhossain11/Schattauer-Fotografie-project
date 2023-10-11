@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schattauer Fotografie</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+        <h1>Schattauer Fotografie</h1>
+        <p>Capturing Moments, Creating Memories</p>
+    </header>
+    
+    
+    <nav>
+        <a href="#category1" class="category-link">Aktuelles</a>
+        <a href="#category2" class="category-link">Babybouch</a>
+        <a href="#category3" class="category-link">Newborn</a>
+        <a href="#category4" class="category-link">Outdoor</a>
+        <a href="#category5" class="category-link">Hoczeit</a>
+        <a href="#category6" class="category-link">Über mich</a>   
+        <a href="#category7" class="category-link">Contact Us</a>  
+    </nav>
+
+    <div class="categories">
+        <div id="category1" class="category-content">
+            <h2>Aktuelles</h2>
+            <!-- Your category description here -->
+            <!-- Add the PDF viewer here -->
+            <div class="pdf-viewer">
+                <iframe src="" width="100%" height="700px" frameborder="0"></iframe>
+            </div>
+            <!-- Rest of your category details here -->
+        </div>
+        <div id="category2" class="category-content">
+            <h2>Babybouch</h2>
+            <!-- Your category description here -->
+            <!-- Add the PDF viewer here -->
+            <div class="pdf-viewer">
+                <iframe src="resources/Babybauch(1).pdf" width="100%" height="700px" frameborder="0"></iframe>
+            </div>
+            <!-- Rest of your category details here -->
+        </div>
+        <div id="category3" class="category-content">
+            <h2>Newborn</h2>
+            <!-- Your category description here -->
+            <!-- Add the PDF viewer here -->
+            <div class="pdf-viewer">
+                <iframe src="resources/Newborn(1).pdf" width="100%" height="700px" frameborder="0"></iframe>
+            </div>
+            <!-- Rest of your category details here -->
+        </div>
+        <div id="category4" class="category-content">
+            <h2>Outdoor</h2>
+            <!-- Your category description here -->
+            <!-- Add the PDF viewer here -->
+            <div class="pdf-viewer">
+                <iframe src="resources/Outdoor(1).pdf" width="100%" height="700px" frameborder="0"></iframe>
+            </div>
+            <!-- Rest of your category details here -->
+        </div>
+        <div id="category5" class="category-content">
+            <h2>Hoczeit</h2>
+            <!-- Your category description here -->
+            <!-- Add the PDF viewer here -->
+            <div class="pdf-viewer">
+                <iframe src="resources/Hochzeit(2).pdf" width="100%" height="700px" frameborder="0"></iframe>
+            </div>
+            <!-- Rest of your category details here -->
+        </div>
+        <div id="category6" class="category-content">
+            <h2>Über mich</h2>
+            <!-- Your category description here -->
+            <!-- Add the PDF viewer here -->
+            <div class="pdf-viewer">
+                <iframe src="resources/Ich bin(4).pdf" width="100%" height="700px" frameborder="0"></iframe>
+            </div>
+            <!-- Rest of your category details here -->
+        </div>  
+       <!--Contact form-->
+       <div id="category7" class="category-content">
+
+<section class="contact-us-section">
+
+    <div class="contact-container">
+    
+        <h1 class="contact-us">Contact us</h1>
+    
+    
+    <!--first grid-->
+    
+        <div class="contact-menu">
+            <ul>
+                <i class="fa fa-map-marker"></i><span class="adress-info">137 City plus Avenue #335</span><br/>
+                <i class="fa fa-phone"></i><span class="phone-info">01520 9204368,</span><br/>
+                <i class="fa fa-envelope"></i><span class="mail-info"> schattauerfotografie@gmail.de</span><br/>
+            </ul>
+        </div>
+    
+   <!--second grid-->
+
+   <div class="texting-menu">
+    <form action="#">
+        <div class="input-group">
+           <input type="text" class="menu" placeholder="Enter your name" id="name" onkeyup="validateName()">
+           <span id="name-error"></span>
+        </div>
+        
+        <div class="input-group">
+           <input type="text" class="menu" placeholder="Enter your phone" id="phone" onkeyup="validatePhone()">
+           <span id="phone-error"></span>
+        </div>
+
+
+        <div class="input-group">
+           <input type="text" class="menu" placeholder="Enter your Email" id="email" onkeyup="validateEmail()">
+           <span id="email-error"></span>
+        </div>
+
+
+        <div class="input-group">
+            <textarea name="message" placeholder="Enter your message" rows="5" id="message" onkeyup="validateMessage()"
+            ></textarea>
+           <span id="message-error"></span>
+        </div>
+     
+          <button onclick="validateForm()" class="submit">Submit</button> 
+        <span id="submit-error"></span>
+    </form>
+</div>
+</div>
+
+
+</section>
+</div> 
+
+    </div>
+    <footer>
+        &copy; 2023 Schattauer Fotografie
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js">
+      
+    </script>
+</body>
+</html>

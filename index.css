@@ -1,0 +1,200 @@
+  /* Reset some default styles */
+  body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:  #F5F5DC; /* Set your background color */
+}
+
+header {
+    background-color:  #F5F5DC;  /* Set your header background color */
+    color: #333; /* Set text color in the header */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+}
+
+h1 {
+    font-size: 36px;
+}
+
+
+nav {
+    background-color: #F5F5DC; /* Set your navigation background color */
+    padding: 10px;
+    text-align: center;
+   
+    
+}
+
+nav a {
+    text-decoration: none;
+    color:  #444;  
+    margin: 0 20px;
+    font-weight: 700;
+    
+}
+nav a:hover {
+    color: #8b3939; /* Change the text color on hover */
+    text-decoration: underline ;
+    transition-delay: 0.5ms;
+   
+   
+    
+}
+
+.categories {
+    display: block;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #F5F5DC;
+}
+
+.category {
+    text-align: center;
+}
+
+.category img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #333; /* Set your footer background color */
+    color: #fff; /* Set text color in the footer */
+    text-align: center;
+    padding: 10px;
+}
+/*contact-us css*/
+
+.contact-us-section {
+    padding: 0px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    height: 500px;
+}
+.contact-container {
+    margin: auto;
+    overflow: hidden;
+    background-color:#F5F5DC; ;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 2%;
+    height: 100%;
+}
+h1.contact-us {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: rgb(37, 33, 33);
+    text-decoration: none;
+}
+.contact-container p {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+    color: rgb(40, 35, 35);
+    letter-spacing: 3px;
+}
+.contact-menu i.fa{
+    font-size: 22px;
+    padding: 3%;
+    background-color: rgb(26, 29, 27);
+    margin: 2%;
+    border-radius: 80%;
+    cursor: pointer;
+    border: 2px solid rgb(190,190,190);
+    color: antiquewhite;
+}
+.contact-menu i.fa:hover
+{
+    cursor: pointer;
+    border: 2px solid azure;
+    color: azure;
+}
+.contact-menu{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.texting-menu{
+    margin-left: 30%;
+    margin-top: -22%;
+    
+}
+
+.form-info{
+    font-size: 16px;
+    font-style: italic;
+    color: azure;
+    letter-spacing: 2px;
+}
+input.menu{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: rgb(229, 237, 192);
+    color: rgb(16, 16, 16);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+input.menu ::placeholder{
+    color: azure;
+}
+textarea{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color:  rgb(229, 237, 192);
+    border: none;
+    outline: none;
+    font-family: sans-serif ;
+    color: black;
+    border-radius: 5px;
+}
+textarea ::placeholder{
+    color: azure;
+}
+.submit{
+    width: 70%;
+    background-color: rgb(38, 38, 37);
+    padding: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-left: 3%;
+    border: 2px solid rgb(190,190,190);
+    color: rgb(249, 246, 246);
+    border-radius: 5px;
+}
+.submit:hover{
+    border: 3px solid azure;
+    color: rgb(190,190,190);
+    cursor: pointer;
+}
+.input-group span {
+    color: red;
+    position: relative;
+    display: block;
+    padding-left: 8px;
+    font-size: 14px;
+}
+#submit-error {
+    color: red;
+    display: block;
+    padding-left: 180px;
+}
+
+.input-group span i {
+    color: green;
+}
