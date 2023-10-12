@@ -107,18 +107,18 @@
    <div class="texting-menu">
     <form action="send_email.php" method="POST">
         <div class="input-group">
-           <input type="text" class="menu" placeholder="Enter your name" id="name" onkeyup="validateName()">
+           <input type="text" name="name" class="menu" placeholder="Enter your name" id="name" onkeyup="validateName()">
            <span id="name-error"></span>
         </div>
         
         <div class="input-group">
-           <input type="text" class="menu" placeholder="Enter your phone" id="phone" onkeyup="validatePhone()">
+           <input type="text" name="phone" class="menu" placeholder="Enter your phone" id="phone" onkeyup="validatePhone()">
            <span id="phone-error"></span>
         </div>
 
 
         <div class="input-group">
-           <input type="text" class="menu" placeholder="Enter your Email" id="email" onkeyup="validateEmail()">
+           <input type="text" name="email" class="menu" placeholder="Enter your Email" id="email" onkeyup="validateEmail()">
            <span id="email-error"></span>
         </div>
 
@@ -129,7 +129,7 @@
            <span id="message-error"></span>
         </div>
      
-          <button onclick="validateForm()" class="submit">Submit</button> 
+          <button onclick="validateForm() " class="submit">Submit</button> 
         <span id="submit-error"></span>
     </form>
 </div>
