@@ -22,10 +22,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // Send the email
     if (mail($to, $subject, $email_message, $headers)) {
-        echo "Email sent successfully!";
-    } else {
-        echo "Email could not be sent. Please try again later.";
-    }
+    echo "Email sent successfully!";
+} else {
+    echo "Email could not be sent. Error: " . error_get_last()['message'];
+}
+
 } else {
     echo "Invalid request.";
 }
